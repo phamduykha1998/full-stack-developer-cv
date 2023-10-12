@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Form -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Protfolio Pham Duy Kha</title>
+  </head>
+  <body>
+    <!-- =================== header Start ====================-->
+    <header>
+      <div class="profile">
+        <img src="Avatar/Portfolio-Kha .PNG" alt="" width="150px" />
+        <h1 >Pham Duy Kha</h1>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- NavBar-->
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" 
+              ><i class="fa-solid fa-home"></i> Home</a
+            >
+          </li>
+          <li>
+            <a href="#about" ><i class="fa-solid fa-user"></i> About Me</a>
+          </li>
+          <li>
+            <a href="#skill" ><i class="fa-solid fa-briefcase"></i> Skills</a>
+          </li>
+          <li>
+            <a href="#resume" ><i class="fa-solid fa-server"></i> Resume</a>
+          </li>
+          <li>
+            <a href="#contact" ><i class="fa-solid fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Language Btn -->
+      <select id="pageSelect">
+        <option value="page1.html">English</option>
+        <option value="page2.html">Japanese</option>
+        <option value="" disabled selected style="display: none">English</option>
+      </select>
+      <button id="goButton" style="display: none">Chuyển đến trang</button>
+    </header>
+
+    <!-- Mobile Nav Topple-->
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+    <!--=================== Hearder End ======================-->
+
+    <!--================== All Body Content ================= -->
+    <main>
+      <!-- === Home Section Start === -->
+      <section id="home">
+        <div class="home-row">
+          <h1>Hi, This is <br />Pham Duy Kha<span>.</span></h1>
+          <p>i'm a <span class="auto-input"></span></p>
+        </div>
+      </section>
+      <!-- === Home Section End === -->
+
+      <!-- === About Section Start === -->
+      <section id="about">
+        <h1 class="sub-heading">About Me</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          I am a proactive Vietnamese international student with a diverse background, having spent an enriching 5 years studying in Japan. This transformative experience has significantly shaped my character, fostering adaptability, cultural awareness, and resilience. Presently, I am wholeheartedly dedicated to carving a career path in IT full stack development. I bring to the table a rich array of experiences, coupled with a solid foundation in this dynamic field.
+        </p>
+
+        <div class="about-col">
+          <img src="Avatar/Portfolio-Kha .PNG" alt="..." width="250px" high="250px" />
+
+          <!--information-->
+
+          <div class="info-col">
+            <h2>Full Stack Developer</h2>
+            <p>
+              Programming: HTML, CSS, Bootstrap 5, Javascript, ReactJS, NodeJS</p>
+              <p>Languages: Japanese (Level N2), English (Conversational)
+            </p>
+            <div class="icon-list-col">
+              <div class="icon-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i><strong>Birthday:</strong>
+                    <span>30 May 1998</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>Phone:</strong>
+                    <span>(+84) 35 789 3005</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>City:</strong>
+                    <span>Go Vap, Ho Chi Minh, VN</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>Website:</strong>
+                    <span>............</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="icon-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i><strong>Age:</strong>
+                    <span>25</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>Address:</strong>
+                    <span>Tran Quoc Tuan P1</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>Mail:</strong>
+                    <span>ttbinbe@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>Occupation</strong>
+                    <span>Full Stack Developer</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- === About Section End === -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- === Facts Section Start === -->
+      <!-- <section id="fact">
+        <h1 class="sub-heading">Facts</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsum
+          asperiores consequuntur incidunt distinctio, eaque quis assumenda odit
+          maiores doloribus facilis quas voluptatibus. Qui, obcaecati.
+        </p>
+
+        <div class="fact-row">
+          <div class="fact-box">
+            <i class="fa-regular fa-face-smile"></i> <strong>50+</strong>
+            <p>Happy Clients</p>
+          </div>
+
+          <div class="fact-box">
+            <i class="fa-regular fa-file-code"></i> <strong>4+</strong>
+            <p>projects Completed</p>
+          </div>
+
+          <div class="fact-box">
+            <i class="fa-solid fa-headset"></i> <strong>24/7</strong>
+            <p>Hours of Support</p>
+          </div>
+
+          <div class="fact-box">
+            <i class="fa-solid fa-clock-rotate-left"></i> <strong>10+</strong>
+            <p>Pending Orders</p>
+          </div>
+        </div>
+      </section> -->
+      <!-- === Facts Section End === -->
+
+      <!-- ----------------------------------------------------------------- -->
+
+      <!-- === Skills Section Start === -->
+      <section id="skill">
+        <h1 class="sub-heading">Skills</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          <ul  class="list">
+            <li>Programming: HTML, CSS, Bootstrap 5, Javascript, ReactJS, NodeJS</li>
+            <li>Languages: Japanese (Level N2), English (Conversational)</li>
+          </ul>
+        </p>
+
+        <div class="skill-row">
+          <!-- skill 1 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>HTML</h2>
+              <h2>85%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 85%"></div>
+            </div>
+          </div>
+          <!-- skill 2 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>CSS</h2>
+              <h2>80%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 80%"></div>
+            </div>
+          </div>
+          <!-- skill 3 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>JavaScript</h2>
+              <h2>60%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 60%"></div>
+            </div>
+          </div>
+          <!-- skill 4 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>Web Designing</h2>
+              <h2>60%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 60%"></div>
+            </div>
+          </div>
+          <!-- skill 5 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>Node JS</h2>
+              <h2>70%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- === Skills Section End === -->
+
+      <!-- ----------------------------------------------------------------- -->
+
+      <!-- === Resume Section Start === -->
+      <section id="resume">
+        <h1 class="sub-heading">Resume</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          I am currently looking for opportunities, in the IT stack domain in a setting that involves the Japanese language. My objective is to advance my career and make a contribution, to an organization by applying my expertise and abilities. I aim to utilize my knowledge of culture and language in a multicultural environment. Additionally I strive to improve my skills and stay updated with the evolving demands of the IT industry.
+        </p>
+
+        <div class="resume-row">
+          <!-- Left col-->
+          <div class="resume-cols">
+            <h2>Summary</h2>
+            <div class="my-info">
+              <h3>Pham Duy Kha</h3>
+              <p>
+                Applying the experiences I have acquired to contribute to the company's development
+              </p>
+              <ul>
+                <li>Go Vap, Ho Chi Minh, Viet Nam</li>
+                <li>035-789-3005</li>
+                <li>ttbinbe@gmail.com</li>
+              </ul>
+            </div>
+
+            <h2>Education</h2>
+            <div class="my-edu">
+              <h3>Asuka Gakuin</h3>
+              <span class="sp-box">2017-2019</span>
+              <p>Japanese Language School</p>
+              <p>During the initial two years of my stay in Japan, my primary focus was mastering the Japanese language. I attained Level N3 proficiency, enabling me to communicate fluently and engage effectively in Japanese society.</p>
+            </div>
+
+            <div class="my-edu">
+              <h3>Yokohama Technoauto College</h3>
+              <span class="sp-box">2019-2022</span>
+              <p>Automotive Mechanics</p>
+              <p>My three-year education in Japan equipped me with in-depth knowledge of automotive mechanics. Graduating with honors, I possess a Level 2 automotive mechanics certificate, demonstrating my proficiency in diagnosing and repairing vehicles.</p>
+            </div>
+
+            <div class="my-edu">
+              <h3>Funix Fullstack Developer Program </h3>
+              <span class="sp-box">Duration: 6 months</span>
+              <p>Funix Fullstack Developer Program</p>
+              <p>Throughout the program, I worked on practical projects and assignments, gaining valuable experience in applying my knowledge to real-world scenarios. I collaborated with peers, honing my teamwork and problem-solving abilities.</p>
+            </div>
+            
+          </div>
+          <!-- Right col-->
+          <div class="resume-cols">
+            <h2>Professional Experience</h2>
+            <div class="pro-exp">
+              <h3>Hokkaido Sushi (Part-time, Manager)</h3>
+              <span class="sp-box">4/2018-12/2021</span>
+              <p>Waiter</p>
+
+              <ul>
+                <li>
+                  Serving as a waiter at Hokkaido Sushi was a transformative experience. It enhanced my cross-cultural competence as I catered to a diverse clientele. Additionally, my promotion to a managerial position underscored my ability to multitask, manage time efficiently, and lead a team.
+                </li>
+              </ul></div>
+              <div class="pro-exp">
+              <h3>Toyota</h3>
+              <span class="sp-box">6/2022-8/2022</span>
+              <p>Car Sales Consultant</p>
+
+              <ul>
+                <li>
+                  My stint at Toyota afforded me a comprehensive understanding of the automotive industry. I played a pivotal role in advising customers about various automobile models, showcasing my ability to absorb and communicate technical details effectively.
+                </li>
+              </ul></div>
+              <div class="pro-exp">
+              <h3>Aura Clinic</h3>
+              <span class="sp-box">3/2023-6/2023</span>
+              <p>Beauty Consultant for Japanese Clients</p>
+
+              <ul>
+                <li>
+                  At Aura Clinic, I engaged with Japanese clients, offering them expert beauty consultation services. This role honed my communication prowess, allowing me to effectively convey complex ideas and build strong client relationships.
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- === Resume Section End === -->
+      <!-- ----------------------------------------------------------------- -->
+                  <!-- === Contact Section Start === -->
+<section id="contact">
+<h1 class="sub-heading">Contact</h1>
+<div class="divider"></div>
+<p class="sub-para">Feel free to get in touch with me. I'm just a call or email away, and I'm always ready to connect and discuss potential opportunities. Here's how you can reach me.</p>
+<div class="contact-row">
+  <!--Left col-->
+  <div class="contact-left">
+    <!-- mail box-->
+    <div class="icon-box">
+      <div class="icon">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="info">
+        <h4>Email:</h4>
+        <p>ttbinbe@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- call box-->
+    <div class="icon-box">
+      <div class="icon">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <div class="info">
+        <h4>Call:</h4>
+        <p>(+84) 35 789 3005</p>
+      </div>
+    </div>
+
+      <!-- Location box-->
+      <div class="icon-box">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="info">
+          <h4>Location:</h4>
+          <p>Go Vap, Ho Chi Minh, Viet Nam</p>
+        </div>
+      </div>
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31349.479501641894!2d106.64589341360733!3d10.835405366273553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529078b51e6eb%3A0x28bd5bd9f01a1edc!2zR8OyIFbhuqVwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1696398910540!5m2!1svi!2s" width="100%" height="550" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    
+
+  </div>
+
+  
+
+</section>
+
+                <!-- === Contact Section Start === -->
+                                        </main>  
+
+    <!-- Typed JS File-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Main JS File-->
+    <script src="script.js"></script>
+    <!-- https://fontawesome.com/kits/54e6f9a0ef/setup -->
+    <script
+      src="https://kit.fontawesome.com/54e6f9a0ef.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

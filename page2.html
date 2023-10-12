@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Form -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Protfolio Pham Duy Kha</title>
+  </head>
+  <body>
+    <!-- =================== header Start ====================-->
+    <header>
+      <div class="profile">
+        <img src="Avatar/Portfolio-Kha .PNG" alt="" width="150px" />
+        <h1> ファム  ズイ カ</h1>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- NavBar-->
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" 
+              ><i class="fa-solid fa-home"></i> ホームページ</a
+            >
+          </li>
+          <li>
+            <a href="#about" ><i class="fa-solid fa-user"></i> 私について</a>
+          </li>
+          <li>
+            <a href="#skill" ><i class="fa-solid fa-briefcase"></i> スキル</a>
+          </li>
+          <li>
+            <a href="#resume" ><i class="fa-solid fa-server"></i> 履歴</a>
+          </li>
+          <li>
+            <a href="#contact" ><i class="fa-solid fa-envelope"></i> 接触</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Language Btn -->
+      <select id="pageSelect">
+        <option value="page1.html">English</option>
+        <option value="page2.html">Japanese</option>
+        <option value="" disabled selected style="display: none">Japanese</option>
+      </select>
+      <button id="goButton" style="display: none">Chuyển đến trang</button>
+    </header>
+
+    <!-- Mobile Nav Topple-->
+    <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+    <!--=================== Hearder End ======================-->
+
+    <!--================== All Body Content ================= -->
+    <main>
+      <!-- === Home Section Start === -->
+      <section id="home">
+        <div class="home-row">
+          <h1>こんにちは、 <br />ファム ズイ カ です<span>.</span></h1>
+          <p>私は<span class="auto-input"></span></p>
+        </div>
+      </section>
+      <!-- === Home Section End === -->
+
+      <!-- === About Section Start === -->
+      <section id="about">
+        <h1 class="sub-heading">私について</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          私は前向きなベトナムの国際学生であり、様々な背景を持ち、日本で5年間を充実した時間を過ごしました。この革新的な経験は私の人格を大いに形作り、適応力や文化への理解、精神的な強さを培いました。現在はITフルスタック開発のキャリアパスに真剣に興味があります。幅広い経験とこのダイナミックな分野での堅固な基盤を持っています。
+        </p>
+
+        <div class="about-col">
+          <img src="Avatar/Portfolio-Kha .PNG" alt="..." width="250px" high="250px" />
+
+          <!--information-->
+
+          <div class="info-col">
+            <h2>Full Stack Developer</h2>
+            <p>
+              プログラミング: HTML、CSS、Bootstrap 5、Javascript、ReactJS、NodeJS</p>
+              <p>
+                言語: 日本語（N2レベル）、英語（会話レベル）
+            </p>
+            <div class="icon-list-col">
+              <div class="icon-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i><strong>誕生日:</strong>
+                    <span>1998年　5月　30日</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>電話番号:</strong>
+                    <span>(+84) 35 789 3005</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>都市:</strong>
+                    <span>Go Vap, Ho Chi Minh, VN</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>ウェブサイト:</strong>
+                    <span>............</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="icon-list">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i><strong>歳:</strong>
+                    <span>25</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>住所:</strong>
+                    <span>Tran Quoc Tuan P1</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>メール:</strong>
+                    <span>ttbinbe@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i
+                    ><strong>職業</strong>
+                    <span>Full Stack Developer</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- === About Section End === -->
+      <!-- ----------------------------------------------------------------- -->
+      <!-- === Facts Section Start === -->
+      <!-- <section id="fact">
+        <h1 class="sub-heading">Facts</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ipsum
+          asperiores consequuntur incidunt distinctio, eaque quis assumenda odit
+          maiores doloribus facilis quas voluptatibus. Qui, obcaecati.
+        </p>
+
+        <div class="fact-row">
+          <div class="fact-box">
+            <i class="fa-regular fa-face-smile"></i> <strong>50+</strong>
+            <p>Happy Clients</p>
+          </div>
+
+          <div class="fact-box">
+            <i class="fa-regular fa-file-code"></i> <strong>4+</strong>
+            <p>projects Completed</p>
+          </div>
+
+          <div class="fact-box">
+            <i class="fa-solid fa-headset"></i> <strong>24/7</strong>
+            <p>Hours of Support</p>
+          </div>
+
+          <div class="fact-box">
+            <i class="fa-solid fa-clock-rotate-left"></i> <strong>10+</strong>
+            <p>Pending Orders</p>
+          </div>
+        </div>
+      </section> -->
+      <!-- === Facts Section End === -->
+
+      <!-- ----------------------------------------------------------------- -->
+
+      <!-- === Skills Section Start === -->
+      <section id="skill">
+        <h1 class="sub-heading">スキル</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          <ul  class="list">
+            <li>プログラミング: HTML、CSS、Bootstrap 5、Javascript、ReactJS、NodeJS</li>
+            <li>言語: 日本語（N2レベル）、英語（会話レベル）</li>
+          </ul>
+        </p>
+
+        <div class="skill-row">
+          <!-- skill 1 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>HTML</h2>
+              <h2>85%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 85%"></div>
+            </div>
+          </div>
+          <!-- skill 2 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>CSS</h2>
+              <h2>80%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 80%"></div>
+            </div>
+          </div>
+          <!-- skill 3 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>JavaScript</h2>
+              <h2>60%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 60%"></div>
+            </div>
+          </div>
+          <!-- skill 4 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>Web Designing</h2>
+              <h2>60%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 60%"></div>
+            </div>
+          </div>
+          <!-- skill 5 -->
+          <div class="skill-box">
+            <div class="skill-info">
+              <h2>Node JS</h2>
+              <h2>70%</h2>
+            </div>
+            <div class="skill-outter-line">
+              <div class="skill-inner-line" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- === Skills Section End === -->
+
+      <!-- ----------------------------------------------------------------- -->
+
+      <!-- === Resume Section Start === -->
+      <section id="resume">
+        <h1 class="sub-heading">履歴</h1>
+        <div class="divider"></div>
+        <p class="sub-para">
+          積極的に行動し、特に日本語に関連する環境でITフルスタック分野の機会を追求しています。私の目標は、知識とスキルを活かしてキャリアを進め、組織の成果に貢献することです。日本の文化や言語の理解を生かし、多文化な環境で効果的に仕事を遂行したいと思っています。同時に、IT分野で自己啓発しスキルを高めることで、ますます複雑かつ多様な業務ニーズに対応することを目指しています。
+        </p>
+
+        <div class="resume-row">
+          <!-- Left col-->
+          <div class="resume-cols">
+            <h2>概要</h2>
+            <div class="my-info">
+              <h3>ファム  ズイ カ</h3>
+              <p>
+                私が獲得した経験を活かして、会社の発展に貢献することを申し出ます。</p>
+              <ul>
+                <li>Go Vap, Ho Chi Minh, Viet Nam</li>
+                <li>035-789-3005</li>
+                <li>ttbinbe@gmail.com</li>
+              </ul>
+            </div>
+
+            <h2>学歴</h2>
+            <div class="my-edu">
+              <h3>飛鳥学院</h3>
+              <span class="sp-box">2017-2019</span>
+              <p>日本語学校</p>
+              <p>私は日本に滞在して最初の2年間、主に日本語を学ぶことに集中しました。N3レベルのスキルを習得し、流暢にコミュニケーションができるようになり、効果的に日本社会で活動できるようになりました。</p>
+            </div>
+
+            <div class="my-edu">
+              <h3>横浜テクノオート専門学校</h3>
+              <span class="sp-box">2019-2022</span>
+              <p>自動車整備士</p>
+              <p>私の3年間の日本での教育は、自動車の機械に関する深い知識を身につけるのに役立ちました。優等で卒業し、自動車機械のレベル2の資格を持っており、車両の診断と修理のスキルにおける私の熟練度を示しています。</p>
+            </div>
+
+            <div class="my-edu">
+              <h3>Funix Fullstack Developer プログラム</h3>
+              <span class="sp-box">Duration: 6 months</span>
+              <p>Web フルスタック デベロッパー</p>
+              <p>プログラム全体を通じて、実践的なプロジェクトと課題に取り組み、自分の知識を実世界のシナリオに適用する貴重な経験を積みました。同僚と協力し、チームワークと問題解決能力を磨く機会を得ました。</p>
+            </div>
+            
+          </div>
+          <!-- Right col-->
+          <div class="resume-cols">
+            <h2>Professional Experience</h2>
+            <div class="pro-exp">
+              <h3>HOKKAIDO SUSHI（アルバイト、マネージャー）</h3>
+              <span class="sp-box">4/2018-12/2021</span>
+              <p>ウェイター</p>
+
+              <ul>
+                <li>
+                  Hokkaido Sushiでのウェイターとしての経験は、大変な変革の経験でした。異なる文化の顧客に対応する中で、私の異文化適応能力が向上しました。さらに、管理職への昇進は、複数の仕事を同時にこなし、効率的に時間を管理し、チームをリードする能力を強調しました。
+                </li>
+              </ul></div>
+              <div class="pro-exp">
+              <h3>Toyota Binh Duong</h3>
+              <span class="sp-box">6/2022-8/2022</span>
+              <p>カーセールスコンサルタント</p>
+
+              <ul>
+                <li>
+                  トヨタでの経験は、自動車産業について包括的な理解を得る機会を提供しました。私は顧客にさまざまな自動車モデルについて助言する重要な役割を果たし、技術的な詳細を効果的に吸収し、伝える能力を示しました。
+                </li>
+              </ul></div>
+              <div class="pro-exp">
+              <h3>Aura Clinic</h3>
+              <span class="sp-box">3/2023-6/2023</span>
+              <p>日本の顧客向け美容コンサルタント</p>
+
+              <ul>
+                <li>
+                  Aura Clinicでは、日本の顧客と接し、彼らに専門の美容相談サービスを提供しました。この役割は私のコミュニケーション能力を磨き、複雑なアイディアを効果的に伝え、強固な顧客関係を築くことができるようにしました。
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- === Resume Section End === -->
+      <!-- ----------------------------------------------------------------- -->
+                  <!-- === Contact Section Start === -->
+<section id="contact">
+<h1 class="sub-heading">接触</h1>
+<div class="divider"></div>
+<p class="sub-para">どうぞお気軽にご連絡ください。電話またはメールですぐにお手伝いできますし、常に機会をご一緒にご検討する準備ができています。以下が私へのご連絡方法です。</p>
+<div class="contact-row">
+  <!--Left col-->
+  <div class="contact-left">
+    <!-- mail box-->
+    <div class="icon-box">
+      <div class="icon">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="info">
+        <h4>メール:</h4>
+        <p>ttbinbe@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- call box-->
+    <div class="icon-box">
+      <div class="icon">
+        <i class="fa-solid fa-phone"></i>
+      </div>
+      <div class="info">
+        <h4>電話番号:</h4>
+        <p>(+84) 35 789 3005</p>
+      </div>
+    </div>
+
+      <!-- Location box-->
+      <div class="icon-box">
+        <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div class="info">
+          <h4>場所:</h4>
+          <p>Go Vap, Ho Chi Minh, Viet Nam</p>
+        </div>
+      </div>
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31349.479501641894!2d106.64589341360733!3d10.835405366273553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529078b51e6eb%3A0x28bd5bd9f01a1edc!2zR8OyIFbhuqVwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1696398910540!5m2!1svi!2s" width="100%" height="550" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    
+
+  </div>
+
+  
+
+</section>
+
+                <!-- === Contact Section Start === -->
+                                        </main>  
+
+    <!-- Typed JS File-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Main JS File-->
+    <script src="script.js"></script>
+    <!-- https://fontawesome.com/kits/54e6f9a0ef/setup -->
+    <script
+      src="https://kit.fontawesome.com/54e6f9a0ef.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
